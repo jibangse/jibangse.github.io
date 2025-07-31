@@ -1,0 +1,41 @@
+<!-- Sidebar -->
+<header>
+  <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  <p>{{ site.description }}</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="{{ site.baseurl }}/">Blog</a></li>
+    <li><a href="{{ site.baseurl }}/about">About</a></li>
+  </ul>
+</nav>
+
+<!-- Category List -->
+<section>
+  <h3>Categories</h3>
+  <ul>
+    {% assign categories = site.categories | sort %}
+    {% for category in categories %}
+      <li>
+        <a href="{{ site.baseurl }}/categories/{{ category[0] | slugify }}/">
+          {{ category[0] }} ({{ category[1].size }})
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- Social Links -->
+<footer>
+  {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}">
+      <i class="fa fa-github"></i>
+    </a>
+  {% endif %}
+  {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}">
+      <i class="fa fa-twitter"></i>
+    </a>
+  {% endif %}
+</footer>
