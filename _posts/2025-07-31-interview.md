@@ -4,10 +4,12 @@ title: "Interview with PD HaeSoo Hur, Developer of 'Who's at the Door?'"
 date: 2025-07-31 10:00:00 +0900
 categories: [Media]
 ---
+
 Read the full interview (Korean)
 [경향게임스 인터뷰 기사 보기](https://www.khgames.co.kr/news/articleView.html?idxno=242498)
+![My Photo](https://github.com/jibangse/jibangse.github.io/blob/master/images/interview_img.jpg?raw=true)
 ---
-International Reception
+##Summary
 
 - The game *Who's at the Door?* received widespread acclaim, achieving a **91% user rating on Steam**.
 - It was praised by popular streamers and YouTubers, with comments like:  
