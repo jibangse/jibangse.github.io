@@ -9,6 +9,14 @@ layout: default
     {{ content }}
   </div>
 
+    {% if page.categories %}
+    <p><strong>Categories:</strong>
+      {% for category in page.categories %}
+        <a href="/categories/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
+
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
