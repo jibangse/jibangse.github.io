@@ -12,15 +12,37 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+        <style>
+      /* 추가: 레이아웃 분할용 */
+      .main-wrapper {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      aside {
+        width: 220px;
+        padding: 20px;
+        background-color: #f8f8f8;
+        font-size: 0.9em;
+      }
+      .content-area {
+        flex: 1;
+      }
+    </style>
+    
+    
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
     <div class="wrapper-masthead">
-            <!-- Sidebar -->
-      <aside style="width: 250px; padding-right: 20px;">
+
+      <!-- Sidebar -->
+      <aside>
         {% include sidebar.html %}
       </aside>
+
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
