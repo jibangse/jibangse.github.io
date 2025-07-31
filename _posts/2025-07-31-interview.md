@@ -9,7 +9,7 @@ categories: [Media]
 [Read the full interview (Korean)](https://www.khgames.co.kr/news/articleView.html?idxno=242498)
 ![My Photo](https://github.com/jibangse/jibangse.github.io/blob/master/images/interview_img.jpg?raw=true)
 ---
-##Summary
+Summary
 
 - The game *Who's at the Door?* received widespread acclaim, achieving a **91% user rating on Steam**.
 - It was praised by popular streamers and YouTubers, with comments like:  
