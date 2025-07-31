@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello, I'm HaeSoo.
+title: Hausoo Dev Log.
 ---
 
 I’m a Game Developer and Creative Director with 3+ years of experience in Unreal Engine (C++/Blueprint). I build games that deliver what players actually want—experiences that feel intuitive, immersive, and technically solid.
